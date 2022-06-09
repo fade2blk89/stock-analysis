@@ -13,19 +13,19 @@ Conversely, in 2018, it appears that a vast majority of the companies had a nega
 
 A key part of refactoring the code involved quickly verifying that the desired company stock ticker matched our current index in the array. If it did not match, it would check both the previous line and following line before moving onto the next index in the array. This was accomplished with the following: 
 
-  If Cells(j - 1, 1).Value <> tickers(tickerIndex) Then
+    If Cells(j - 1, 1).Value <> tickers(tickerIndex) Then
             
-    tickerStartingPrices(tickerIndex) = Cells(j, 6).Value
+      tickerStartingPrices(tickerIndex) = Cells(j, 6).Value
     
-  End If
+    End If
                 
-  If Cells(j + 1, 1).Value <> tickers(tickerIndex) Then
+    If Cells(j + 1, 1).Value <> tickers(tickerIndex) Then
             
-    tickerEndingPrices(tickerIndex) = Cells(j, 6).Value
+      tickerEndingPrices(tickerIndex) = Cells(j, 6).Value
     
-     tickerIndex = tickerIndex + 1
+      tickerIndex = tickerIndex + 1
      
-  End If
+    End If
 
 ## Summary ##
 
