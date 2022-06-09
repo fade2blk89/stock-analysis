@@ -5,6 +5,7 @@ The purpose of this project is to analyze a large cross-section of stock ticker 
 ## Results ##
 
 When analyzing the data, I found that in 2017, the company Daqo New Energy Corp (DQ) had a return of almost 200%, as shown below:
+
 ![All Stocks 2017](https://github.com/fade2blk89/stock-analysis/blob/main/All%20Stocks%202017.png)
 
 Conversely, in 2018, it appears that a vast majority of the companies had a negative return on investment, with only Enphase Energy Inc (ENPH) and Sunrun Inc (RUN) reporting a positive return for both years:
